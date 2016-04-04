@@ -1,0 +1,22 @@
+Allar sort týpurnar eru prófaðar 50 sinnum, síðan tek ég meðaltalið af tímanum sem það tók.
+
+Insertion Sort:
+    100 stök: 0.0004200029373168945
+    1000 stök: 0.041560001373291015
+    10000 stök: 4.029739980697632
+
+Merge Sort:
+    100 stök: 0.0004460005760192871
+    1000 stök: 0.0059980001449584965
+    10000 stök: 0.08031998634338379
+
+Quicksort:
+    100 stök: 0.00013999462127685546
+    1000 stök: 0.0020200061798095704
+    10000 stök: 0.02405999183654785
+
+Quicksort er klárlega meistarinn. Það er líka sjúklega einfalt sort.
+
+Stærðin fer mjög illa með insertion sort en kemur mjög lítið uppá hin sortin.
+
+Merge á erfitt með list sem eru nokkuð raðaðir, insertion sort finnur ekkert fyrir því.
